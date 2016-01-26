@@ -1,0 +1,68 @@
+﻿/* ============================= pagination ============================= */
+#pagination{
+	display:inline-block;
+	width:90%;
+	font-family: 'Chunk';
+	font-size: 20px;
+	letter-spacing:1px;
+	margin-left:35px;
+
+}
+
+#pagination a, #pagination strong {
+	display:block;
+	float:left;
+	margin-right:3px;
+	text-decoration:none;
+	background:#e3e3e3;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	
+	border: 1px solid #c9c9c9;
+	color:#292929;
+	font-family: 'Chunk';
+}
+#prev a{
+	color:green;
+	border:1px double #888;
+	font-family: 'Chunk';
+}
+#next a{
+	color:green;
+    border:1px double #888; 
+	font-family: 'Chunk';
+}
+#pagination strong , #pagination a:hover {
+	font-weight:normal;
+	background:#c9c9c9;
+	-moz-box-shadow:0px 1px 1px #000000;
+	-webkit-box-shadow:0px 1px 1px #000000;
+	box-shadow: 0px 1px 1px #000000;
+	color:#000;
+}
+#total
+{
+	display:block;
+
+	}
+#total p{
+	padding-top:3px;
+	padding-right:3px;
+	color: #CCC;
+	text-align:right;
+	font-family: 'Chunk';
+	font-size: 15px;
+	}
+/* ============================= pagination ============================= */
+/*#td_style tr:nth-child(even) {
+	background: #E8E8E8;
+	padding:5px;
+	}
+#td_style tr:nth-child(odd) {
+	background: #E6E6E6;
+	padding:5px;
+	}*/
+	
+

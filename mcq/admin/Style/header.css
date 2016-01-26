@@ -1,0 +1,129 @@
+﻿
+/*-------------------------------------------*/	
+.site_login{ 
+	background:none;
+    color: #888;
+	font-family: 'PT Sans';
+    padding:9px;
+    border: 0px solid #888; 
+	position:absolute; 
+	bottom:15px; 
+	right:10px;
+	width: auto; 
+/*	border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;*/
+	
+}
+.site_login ul{
+	margin: 0;
+	list-style-type: none;
+	}
+
+.site_login ul li{ 
+	display: inline; 
+	float: right;
+}
+.site_login ul li a{
+	display: block;
+	padding-left:2px; 
+	padding-right:2px; 
+	color: #f80; 
+	text-decoration: none;
+	}
+/*-------------------------------------------*/	
+.logo
+{
+    width: 170px;
+    height: 118px;
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top:0px;
+    color: #09F;
+}
+.logo img
+{
+    width: 170px;
+    height: 118px;
+}
+.logo h2
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #555;
+}
+
+
+.User_LoginPanel
+{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #555;
+}
+.User_LoginPanel Label
+{
+    color: #555;
+}
+.User_LoginPanel a
+{
+    color: #555;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.User_LoginPanel a:hover
+{
+    color: #eee;
+}
+.User_LoginPanel .user_label
+{
+    color: Silver;
+}
+
+.social_link
+{
+	position:absolute;
+	top:10px;
+	right:10px;	
+	text-align:right;
+}
+.social_link ul
+{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social_link ul li
+{
+	display:inline-block;
+}
+.social_link ul li img{
+	width:35px;
+	
+	}
+.social_link p
+{
+	color: #fff;
+	margin-top:5px;
+	text-align:right;
+	font-family:EngelLight;
+	font-size:15px;
+
+}
+.top_text{
+	position:absolute;
+	top:18px;
+	left:300px;	
+	text-align:left;
+	}
+
+	.top_text h2{
+	margin-top: 7px;
+	margin-left: 5px;
+	float: left;
+	color:#FC6;		
+		}

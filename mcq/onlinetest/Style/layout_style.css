@@ -1,0 +1,120 @@
+﻿#page
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*....................................*/
+#header
+{
+    width: 100%;
+    position: relative;
+	border-bottom: 3px solid #f00;
+	background:#fff;
+}
+
+.header_box
+{
+    padding: 10px;
+    height: auto;
+    max-width: 980px;
+	width: auto;
+    margin: 0 auto;
+	position: relative;
+
+	
+	/*-moz-box-shadow:0px 1px 3px #888;
+	-webkit-box-shadow:0px 1px 3px #888;
+	box-shadow:0px 1px 3px #888;*/
+	
+	
+}
+/*....................................*/
+#navigation
+{
+    width: 100%;
+	border-bottom: #333 solid 1px;
+	border-top: #444 solid 1px;
+	
+	background: #000; /* Old browsers */
+}
+
+.navigation_box
+{
+    max-width: 980px;
+	width: auto;
+    margin: 0 auto;
+	
+    padding-left:0px;
+    padding-right: 10px;
+	padding-top:3px;
+
+    height: 30px;
+    position: relative;
+    
+    
+
+/*	-moz-box-shadow:0px 1px 3px #888;
+	-webkit-box-shadow:0px 1px 3px #888;
+	box-shadow:0px 1px 3px #888;
+*/
+
+}
+
+/*....................................*/
+
+/*....................................*/
+#content
+{
+    width: 100%;
+    margin: 0 auto;
+    background: #eee ;
+    border-top: #ccc solid 1px;
+}
+.content_box
+{
+    max-width: 1000px;
+	width: auto;
+    margin: 0 auto;
+    padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+ 
+    margin-top:0px;
+    margin-bottom:0px;
+	
+	
+	/*-moz-box-shadow:0px 1px 3px #888;
+	-webkit-box-shadow:0px 1px 3px #888;
+	box-shadow:0px 1px 3px #888;*/
+
+}
+.content_box_Details
+{
+	margin: 0 auto;
+    width:100%;
+
+	}
+
+/*...................................*/
+#footer
+{
+    width: 100%;
+    position: relative;
+	background: #eee ;
+    border-top: #ccc solid 1px;
+	
+}
+
+.footer_box
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    height: auto;
+	
+	/*-moz-box-shadow:0px 1px 3px #888;
+	-webkit-box-shadow:0px 1px 3px #888;
+	box-shadow:0px 1px 3px #888;*/
+
+}

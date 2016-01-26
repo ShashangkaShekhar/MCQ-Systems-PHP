@@ -1,0 +1,151 @@
+.ddsmoothmenu
+{
+    width: 100%;
+}
+
+.ddsmoothmenu ul
+{
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ddsmoothmenu ul li
+{
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+.ddsmoothmenu ul li a
+{
+    display: block; 
+    padding:7px 15px;
+    border-right: 0px solid rgba(0,79,148,1);
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	color: #000;
+	text-transform:uppercase;s
+    
+}
+
+* html .ddsmoothmenu ul li a
+{
+    display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited
+{
+    color: #fff;
+}
+
+.ddsmoothmenu ul li a.selected
+{
+    background-color:#0d9ce0;
+	/*-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;*/
+    color: #fff;
+}
+
+.ddsmoothmenu ul li a:hover
+{
+    color: #fff;	
+
+}
+
+/* sub menus */
+.ddsmoothmenu ul li ul
+{
+    position: absolute;
+    left: -3000px;
+    display: none;
+    visibility: hidden;
+}
+
+.ddsmoothmenu ul li ul li
+{
+    display: list-item;
+    float: none;
+}
+
+.ddsmoothmenu ul li ul li ul
+{
+    top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a
+{
+    width: 200px;
+    padding: 7px;
+    margin: 0;
+    background-color:#0d9ce0;
+    border-bottom: 1px solid #198abf;
+
+}
+.ddsmoothmenu ul li ul li a:hover
+{
+    background:#333;
+    color: #999;
+    border-bottom: 1px solid #222222;
+}
+
+* html .ddsmoothmenu
+{
+    height: 1%;
+}
+
+.downarrowclass
+{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+}
+
+.rightarrowclass
+{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+
+.ddshadow
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: #ccc; 
+}
+
+.toplevelshadow
+{
+    margin: 5px 0 0 5px; 
+    opacity: 0.8; 
+}
+
+.ddcss3support .ddshadow.toplevelshadow
+{
+    margin: 0; 
+}
+
+.ddcss3support .ddshadow
+{
+    background-color: transparent;
+    box-shadow: 2px 5px 5px #000; 
+    -moz-box-shadow: 2px 2px 2px #000;
+    -webkit-box-shadow: 2px 2px 2px #000;
+}
+.last
+{
+    border-right: 0px solid #000 !important;
+}

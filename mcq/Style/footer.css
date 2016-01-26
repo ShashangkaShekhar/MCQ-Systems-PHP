@@ -1,0 +1,85 @@
+﻿.upper_footer_menu
+{	margin: 0;
+    padding: 0;
+    list-style-type: none;
+	margin-top:35px;
+	
+}
+.upper_footer_menu span
+{	
+	color: #63F;
+	font-family: 'Open Sans' , sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:15px;
+	display: block; 
+	
+}
+.upper_footer_menu li
+{	
+	padding:1px 0px;
+	list-style-image:url(../Resources/ico/icon-check-01.gif);
+	list-style-position:inside;
+	
+}
+.upper_footer_menu li a
+{	
+	display: block; 
+
+    text-decoration: none;
+    text-transform: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	color: #888;
+	
+}
+.upper_footer_menu li a:hover
+{	
+	color: #666;
+}
+.upper_footer_menu strong
+{	
+	color: #ab2202;
+	font-family: 'Open Sans' , sans-serif;
+	font-size:15px;
+	font-weight: normal;
+	margin-bottom:10px;
+	display:block;
+	background:#333;
+	padding:5px;
+	border-left:2px solid #666;
+	
+}
+.upper_footer_menu p
+{	
+	color: #777;
+	font-family: 'Open Sans' , sans-serif;
+	font-size:13px;
+	margin-bottom:2px;
+	
+}
+/*--------------------------------*/
+.copyright
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: table;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+	
+}
+.copyright p
+{
+    margin-bottom: 0px;
+    color: #888;
+}
+.copyright span
+{
+    margin-bottom: 0px;
+    color: #888;
+}

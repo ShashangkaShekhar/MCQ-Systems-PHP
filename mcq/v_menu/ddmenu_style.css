@@ -1,0 +1,99 @@
+﻿.glossymenu
+{
+    margin: 0;
+    padding: 0;
+    width: 100%; /*width of menu*/
+    border:1px solid #ddd;
+
+}
+
+.glossymenu a.menuitem
+{
+
+    color: #555;
+    font-size:13px;
+    text-transform:uppercase;
+    display: block;
+    position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+    width: auto;
+    padding: 10px 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    
+}
+
+
+
+.glossymenu a.menuitem .statusicon
+{
+    /*CSS for icon image that gets dynamically added to headers*/
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    border: none;
+}
+.last
+{
+    border-bottom-width: 0 !important;
+}
+.glossymenu a.menuitem:hover
+{
+    background: #333;
+	color: #F90;
+}
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active
+{
+    color: #69F;
+}
+
+.glossymenu div.submenu
+{
+    /*DIV that contains each sub menu*/
+    /*background: #ebebeb;*/
+}
+
+.glossymenu div.submenu ul
+{
+    /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.glossymenu div.submenu ul li
+{
+    border-bottom: 1px solid #eee;
+}
+
+.glossymenu div.submenu ul li a
+{
+    display: block;
+    color: #C5C5C5;
+    font-size:12px;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding: 7px 15px;
+	background:#2d4a96;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.glossymenu div.submenu ul li a:hover
+{
+    background: #000;
+	color: #fff;
+}
+.glossymenu div.submenu ul li a:visited, .glossymenu .menuitem:active
+{
+    color: #fff;
+}
